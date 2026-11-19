@@ -1,25 +1,25 @@
 class LaneworkKit < Formula
   desc "lwk: fast file, text, structural and session search for coding agents"
   homepage "https://github.com/lanework-dev/kit"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/lanework-dev/kit/releases/download/v0.2.0/lanework-kit-aarch64-apple-darwin.tar.xz"
-      sha256 "fd5b5f0efcd185c2d3b6ed5c24a693574109acd5013422f3f2d010a75ec0c4c4"
+      url "https://github.com/lanework-dev/kit/releases/download/v0.3.0/lanework-kit-aarch64-apple-darwin.tar.xz"
+      sha256 "fb3d31e788f74d8bbe4c81ab2c757c5fbb04f4559630f96ae78937e0750a16b0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lanework-dev/kit/releases/download/v0.2.0/lanework-kit-x86_64-apple-darwin.tar.xz"
-      sha256 "37a405fa820f969fce87fcf69343ba192f37c1c488027b20c14ec04d96bf9b96"
+      url "https://github.com/lanework-dev/kit/releases/download/v0.3.0/lanework-kit-x86_64-apple-darwin.tar.xz"
+      sha256 "9a1d323569e30d778628e877eb15e1ebb76578cf54fcd5900898ac6dd1889929"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/lanework-dev/kit/releases/download/v0.2.0/lanework-kit-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "00a54e1d9b55ab9861556dcff3b7dded3f138704b7a6b52472143a23ee3006f3"
+      url "https://github.com/lanework-dev/kit/releases/download/v0.3.0/lanework-kit-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "444f67f3c9d33885fe7155cc388284ae779d8e2f71cd79d45bd7823c302bbcfe"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lanework-dev/kit/releases/download/v0.2.0/lanework-kit-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "a9523274879903ed832724fe30885487f7419eee6916ef90a2a111579c387a68"
+      url "https://github.com/lanework-dev/kit/releases/download/v0.3.0/lanework-kit-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "0e531b99dbb423f735618bb0b79551ebb6cad09c3a4b6b7c04afd8b6787918cb"
     end
   end
   license "MIT"
